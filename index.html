@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Generator</title>
+    <link rel="stylesheet" type="text/css" href="pwG.css">
+</head>
+
+<body>
+
+<div class="container">
+    <form>
+        <label for="characters">Amount of Characters</label>
+        <input id="characters" type="number" min="8" max="128" value="10" />
+        <div>
+            <label for="useLowercase">Use Lowercase</label>
+            <input id="useLowercase" type="checkbox" />
+        </div> 
+        <div>
+            <label for="useUppercase">Use Uppercase</label>˜
+            <input id="useUppercase" type="checkbox" />
+        </div>
+        <div>
+            <label for="useNumbers">Use Numbers</label>
+            <input id="useNumbers" type="checkbox" />
+        </div>
+        <div>
+            <label for="useSpecial">Use Special Characters</label>
+            <input id="useSpecial" type="checkbox" />
+        </div>
+        <button id="submit">Generate Password</button>
+    </form>
+    <textarea id="content"></textarea>
+</div>
+    <script src="pwG.js"></script>
+
+</body>
+
+</html>
